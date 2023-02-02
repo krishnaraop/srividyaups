@@ -4,6 +4,7 @@ const Gallery = () => {
   return (
     <div className="container">
       <Container>
+        <h4>Gallery</h4>
         <Row>
           <Col>a</Col>
           <Col>b</Col>
