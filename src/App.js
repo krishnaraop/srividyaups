@@ -7,7 +7,7 @@ import Slider1 from "./Slider1";
 
 function App() {
   return (
-    <div>
+    <div className="appMain">
       <Navbar />
       <Slider1 />
       <About />

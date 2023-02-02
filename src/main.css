@@ -1,4 +1,36 @@
+.appMain{
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+
+}
+.sliderMain{
+    margin-top: 10px;
+}
 .footerMain{
     background-color: aqua;
-    height: 250px;
+    height: 450px;
+}
+.mainHeader{
+    background-color: rgb(38, 60, 147);
+    height: 75px;
+    color: antiquewhite;
+    text-decoration-style: solid;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imageSlide{
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+}
+.imageGallery{
+    height: 300px;
+    width: auto;
+    border: 2px solid rgb(225, 222, 219);
+    border-radius: 10px;
 }
