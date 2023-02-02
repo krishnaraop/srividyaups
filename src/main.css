@@ -7,6 +7,7 @@
 }
 .sliderMain{
     margin-top: 10px;
+    height: auto;
 }
 .footerMain{
     background-color: aqua;
@@ -24,9 +25,14 @@
     align-items: center;
 }
 .imageSlide{
-    height: 500px;
-    width: auto;
+    height: 75vh;
+    width: 100vw;
     object-fit: cover;
+}
+.carousalHeading{
+    background-color: aqua;
+    color: rgb(2, 2, 9);
+    border-radius: 20px;
 }
 .imageGallery{
     height: 300px;

@@ -13,20 +13,20 @@ import img3 from "./assets/IMG20220815093054.jpg";
 const items = [
   {
     src: img1,
-    altText: "Slide 1",
-    caption: "Slide 1",
+    altText: "I-Day",
+    caption: "Parade Rally On Republic Day",
     key: 1,
   },
   {
     src: img2,
     altText: "Slide 2",
-    caption: "Slide 2",
+    caption: "Band Troop of Sri Vidya Kids",
     key: 2,
   },
   {
     src: img3,
     altText: "Slide 3",
-    caption: "Slide 3",
+    caption: "Traditional Wear For Independence Day Celebrations",
     key: 3,
   },
 ];
@@ -61,7 +61,8 @@ function Slider1(args) {
       >
         <img src={item.src} alt={item.altText} className="imageSlide" />
         <CarouselCaption
-          captionText={item.caption}
+          // captionText={item.caption}
+          className="carousalHeading"
           captionHeader={item.caption}
         />
       </CarouselItem>
@@ -69,7 +70,7 @@ function Slider1(args) {
   });
 
   return (
-    <div className="container sliderMain">
+    <div className="sliderMain">
       <Carousel
         activeIndex={activeIndex}
         next={next}
